@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punch 2 Learn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="top-menu-space"></div>
+
+  <header>
+    <label class="not-visible" for="close-menu">Close Menu</label>
+    <input class="close-menu" type="checkbox" id="close-menu" role="button" aria-label="Close Menu">
+
+    <aside class="menu">
+      <div>
+        <h1 class="logo">
+          <a onclick="getElementById('close-menu').checked = false;" href="home.html">
+            <img class="logoimg" src="images/logotest.png">
+          </a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li>
+              <a href="java.html#java">Courses</a>
+            </li>
+            <li>
+              <a href="#sup">Support</a>
+            </li>
+            <li>
+              <a href="about.html">About us</a>
+            </li>
+            <li>
+              <a href="plans.html">Start now</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+  </header>
+  <div>
+  <section id="home" class="section image-background">
+    <header id="main-header" class="main-header section-content">
+      <div class="main-header-content text-container">
+        <h2>Develop your career in <span class="enfase">Technology!</span></h2>
+        <p>Learn the most in-demand technologies in the market and reach your next level with the largest tech community
+          in the country.
+        </p>
+        <button class="botao">
+          <a href="plans.html" target="_blank" rel="noopener noreferrer">
+            Start your journey today</a>
+        </button>
+      </div>
+    </header>
+  </section>
+  </div>
+  <div class="section black-background">
+
+    <section class="carrossel-section">
+      <h3 class="titulo enfase-lilaz">Explore our <span class="enfase-roxo">most popular</span> courses:</h3>
+
+      <div class="carrossel-container">
+
+
+        <div class="carrossel" id="carrossel">
+          <a href="java.html#java" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/000050/47b8d6?text=Java" alt="Figma for devs" />
+            </div>
+          </a>
+          <a href="java.html#ia" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/300050/e200f7?text=IA"
+                alt="Produtividade com IA" />
+            </div>
+          </a>
+          <a href="java.html#python" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/719014/eeff00?text=Python"
+                alt="Acessibilidade com ReactJS" /></div>
+          </a>
+          <a href="java.html#html-css" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/367212/11ff03?text=HTML/CSS"
+                alt="Apps desktop com Electron" />
+            </div>
+          </a>
+          <a href="java.html#javascript" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/411002/ff0303?text=JS"
+                alt="Carreira Internacional" />
+            </div>
+          </a>
+          <a href="java.html#php" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/512553/ff03c2?text=PHP"
+                alt="Conhecendo as IAs da Rocketseat" />
+            </div>
+          </a>
+          <a href="java.html#csharp" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/514005/ff8c00?text=C%23"
+                alt="Conhecendo as IAs da Rocketseat" />
+            </div>
+          </a>
+          <a href="java.html#mysql" class="card-link">
+            <div class="card"><img src="https://placehold.co/262x136/487779/00FFDA?text=MySQL"
+                alt="Conhecendo as IAs da Rocketseat" />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="carrossel-controles">
+        <div class="botoes-navegacao">
+          <button class="botao-nav" id="btnAnterior">&#8249;</button>
+          <button class="botao-nav" id="btnProximo">&#8250;</button>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  </div>
+
+  <section class="section primary-background">
+    <div class="benefits-header-title">
+      <h2>Hands-on learning
+      </h2>
+    </div>
+
+    <header id="benefits-header" class="benefits-header section-content">
+      <div class="benefits-header-content portfolio">
+        <article>
+          <h4> +1,000 classes</h4>
+          <p> Immediate access to all content available on the platform to watch at your own pace.
+          </p>
+        </article>
+        <article>
+          <h4> +1000h of content</h4>
+          <p> In addition to recorded classes, you get access to subscriber benefits: mentoring sessions, live
+            masterclasses, and exclusive events.</p>
+        </article>
+        <article>
+          <h4> +100 hands-on projects</h4>
+          <p> You'll learn by doing through various projects and real-world cases to grow your portfolio</p>
+        </article>
+      </div>
+
+      <div class="main-header-logo">
+        <img src="images/beneftsimg.png" alt="Random Image" />
+      </div>
+    </header>
+    
+    <div class="coluna grid-section">
+      <article>
+        <img src="images/teal_icon_1.png">
+        <h3>Resolved Questions</h3>
+        <p>Send images and receive more accurate answers.</p>
+      </article>
+      <article>
+        <img src="images/teal_icon_2.png">
+        <h3>Complete Learning</h3>
+        <p>Perfect for front-end, design, data, and many other fields.</p>
+      </article>
+      <article>
+        <img src="images/teal_icon_3.png">
+        <h3>Simple and Fast</h3>
+        <p>Just attach an image in Punch's chat to get started!</p>
+      </article>
+      <article>
+        <img src="images/teal_recolor_icon.png">
+        <h3>More Clarity</h3>
+        <p>More interactivity, more clarity. Give Punch Vision a try and see for yourself!</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="testimonials section black-background">
+    <h2>From the <span class="enfase">Punching</span> community</h2>
+    <p class="subtitle">Success stories from students who took the leap.</p>
+
+    <div class="testimonial-grid">
+      <div class="testimonial">
+        <img src="images/tania.png" alt="Kenia">
+        <h3>Tania R.</h3>
+        <span>Spain</span>
+        <p>“Being a mother — especially a working mother means I’m constantly juggling... Punch2learn has flexible
+          programs.”</p>
+      </div>
+
+      <div class="testimonial">
+        <img src="images/leo.png" alt="Ryan">
+        <h3>Ryan L.</h3>
+        <span>United States</span>
+        <p>“From taking courses on PunchToLearn, I gained a deep understanding of UX Design... I feel prepared.”</p>
+      </div>
+
+      <div class="testimonial">
+        <img src="images/lian.png" alt="Vishal">
+        <h3>Caiome V.</h3>
+        <span>Ireland</span>
+        <p>“I really enjoyed my courses. The quizzes, videos, and labs gave me the confidence to excel in my career.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-wrapper" id="sup">
+    <div class="faq-grid">
+      <div class="faq-heading">
+        <div class="faq-tag">FAQ_</div>
+        <h2>Got Questions? We’ve Got Answers!</h2>
+        <h3>Get in contact with us through our:</h3> 
+        <p class="faq-email">Email: <a href="mailto: suport@ptl.com">
+          suport@ptl.com</a></p>
+        <p class="faq-phone">Phone: <a href="tel:+1234567890">
+          +123 456 7890</a></p> 
+        <p class="faq-social">Follow us on social media for updates and support:</p>
+        <ul class="social-links" style="padding-left: 0; margin-left: 0;">
+          <li><a href="https://www.facebook.com/punch2learn" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://www.twitter.com/punch2learn" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="https://www.instagram.com/punch2learn" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </div>
+
+      <div class="faq-questions">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">01.</span>
+            <span class="faq-text">What is Punch2Learn?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">Punch2Learn is an online learning platform designed to teach programming, tech skills,
+            and career-focused development through practical and interactive courses.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">02.</span>
+            <span class="faq-text">Who is it for?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">Punch2Learn is ideal for beginners, self-taught developers, students, and
+            professionals looking to upgrade or expand their tech skills.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">03.</span>
+            <span class="faq-text">What can I find on the platform?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">You'll find structured learning paths, real-world projects, video lessons, coding
+            challenges, and a community to support your journey.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">04.</span>
+            <span class="faq-text">How does the subscription work?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">Punch2Learn offers monthly and yearly plans. You get unlimited access to all courses
+            and features for the duration of your subscription.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">05.</span>
+            <span class="faq-text">Where do I start learning?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">After signing up, you can start with our “Getting Started” guide, choose a learning
+            path based on your goal (e.g., Frontend, Backend, Full Stack), and follow step by step.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">06.</span>
+            <span class="faq-text">How long do courses take to complete?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">It depends on the course and your pace. On average, a beginner path can be completed
+            in 2-3 months with consistent practice.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">07.</span>
+            <span class="faq-text">How much does it cost?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">We offer flexible pricing: monthly plans start at $12.99, and yearly plans come with
+            discounts. You can view all options on our pricing page.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">08.</span>
+            <span class="faq-text">Do I get a certificate?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">Yes! Upon completing a course or track, you'll receive a digital certificate that you
+            can share on LinkedIn or your resume.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">09.</span>
+            <span class="faq-text">What if I don't like it?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">We offer a 7-day money-back guarantee. If you're not satisfied, you can cancel and
+            request a full refund within the first week.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            <span class="faq-number">10.</span>
+            <span class="faq-text">I still have questions. What should I do?</span>
+            <svg class="faq-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8 10l4 4 4-4" stroke="#aaa" stroke-width="2" fill="none" />
+            </svg>
+          </button>
+          <div class="faq-answer">No problem! You can contact our support team anytime via chat or email, or visit our
+            community forum to get help from other learners.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+
+
+  <p class="created-by"><a href="https://www.linkedin.com/in/kaykygueno/">Made with <span class="heart">❤</span> by <br>
+     Kayky Gueno 3160913</a></p>
+
+  <a class="back-to-top" role="button" aria-label="Back to top" title="Back to top" href="#home"></a>
+  <script src="javascript/styles.js"> </script>
+</body>
+
+</html>
