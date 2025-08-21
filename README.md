@@ -14,7 +14,7 @@ A fictional website for an online programming and technology courses platform, b
 ## How to Run
 
 1. Clone or download this repository.
-2. Open `index.html` in your web browser.
+2. Open `home.html` in your web browser.
 
 ## Project Structure
 
